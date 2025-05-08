@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, .header {
+    background: #2d3a4b;
+    color: #fff;
+    padding: 1.2rem 0;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    box-shadow: 0 2px 8px rgba(60, 60, 120, 0.08);
+}
+
+.container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 60, 120, 0.15);
+    max-width: 420px;
+    text-align: center;
+    margin: 2.5rem auto 2rem auto;
+    flex: 1 0 auto;
+}
+
+h1 {
+    color: #2d3a4b;
+    margin-bottom: 0.5em;
+    font-size: 2.2em;
+}
+
+p {
+    color: #4a5a6a;
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+}
+
+.signature {
+    margin-top: 2em;
+    color: #7a8b9c;
+    font-style: italic;
+    font-size: 0.98em;
+}
+
+footer, .footer {
+    background: #2d3a4b;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem 0 0.7rem 0;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    margin-top: auto;
+    box-shadow: 0 -2px 8px rgba(60, 60, 120, 0.08);
+}
+
+.footer p {
+    margin: 0.2em 0;
+    color: #e0eafc;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1.2rem 0.5rem;
+        max-width: 98vw;
+    }
+    h1 {
+        font-size: 1.4em;
+    }
+}
